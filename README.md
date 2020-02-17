@@ -1,6 +1,8 @@
 # Swashbuckle.FlattenAllOf.Extension
 Flatten allOf collections with a single item in to a traditional reference
 
+![Publish to nuget](https://github.com/waxtell/Swashbuckle.FlattenAllOf.Extension/workflows/Publish%20to%20nuget/badge.svg)
+
 While syntactically correct, I find the "allOf" below redundant.  The "region" property can only ever be an instance of Region.
 
 ```
