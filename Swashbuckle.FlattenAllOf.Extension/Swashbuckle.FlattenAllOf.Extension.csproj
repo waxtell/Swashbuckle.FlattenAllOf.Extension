@@ -8,7 +8,8 @@
     <RepositoryType>git</RepositoryType>
     <PackageProjectUrl>https://github.com/waxtell/Swashbuckle.FlattenAllOf.Extension</PackageProjectUrl>
     <PackageTags>Swashbuckle allOf reference</PackageTags>
-    <PackageReleaseNotes>1.0.0- Initial release</PackageReleaseNotes>
+    <PackageReleaseNotes>1.0.1- Initial release</PackageReleaseNotes>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
