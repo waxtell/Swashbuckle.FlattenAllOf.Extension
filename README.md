@@ -1,7 +1,7 @@
 # Swashbuckle.FlattenAllOf.Extension
 Flatten allOf collections with a single item in to a traditional reference
 
-While syntactically correct, I find the "allOf" below redundant.  The "nested" property can only ever be an instance of NestedObject.
+While syntactically correct, I find the "allOf" below redundant.  The "region" property can only ever be an instance of Region.
 
 ```
       "WeatherForecast": {
