@@ -15,10 +15,10 @@ While syntactically correct, I find the "allOf" below redundant.  The "nested" p
             "type": "integer",
             "format": "int32"
           },
-          "nested": {
+          "region": {
             "allOf": [
               {
-                "$ref": "#/components/schemas/NestedObject"
+                "$ref": "#/components/schemas/Region"
               }
             ],
             "nullable": true
