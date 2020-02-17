@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Will Axtell</Authors>
+    <Description>Flatten allOf references that contain a single option in to a traditional reference.</Description>
+    <RepositoryUrl>https://github.com/waxtell/Swashbuckle.FlattenAllOf.Extension.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageProjectUrl>https://github.com/waxtell/Swashbuckle.FlattenAllOf.Extension</PackageProjectUrl>
+    <PackageTags>Swashbuckle allOf reference</PackageTags>
+    <PackageReleaseNotes>1.0.0- Initial release</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.0.0" />
+  </ItemGroup>
+
+</Project>
