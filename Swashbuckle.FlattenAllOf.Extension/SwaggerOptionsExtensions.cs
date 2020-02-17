@@ -10,7 +10,10 @@ namespace Swashbuckle.FlattenAllOf.Extension
         public static SwaggerOptions FlattenAllOfs(this SwaggerOptions options)
         {
             options
-                .PreSerializeFilters.Add((swagger, httpReq) =>
+                .PreSerializeFilters
+                .Add
+                (
+                    (swagger, httpReq) =>
                     {
                         foreach (var schema in swagger.Components.Schemas)
                         {
